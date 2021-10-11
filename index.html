@@ -22,14 +22,14 @@
               <div class="row text-center align-items-center my-3">
                 <div class="col-12 col-md-6 order-1">
                   <p class="m-0 h2 fw-bold">
-                      <span>$24</span>
+                      <span id="precio">$24</span>
                       .00 / 
                       <span class="text-muted h6 align-middle">month</span>
                 </p>
                 </div>
                 <div class="col-12 col-md-6 order-3 order-md-2">
                   <p class="m-0">
-                      <span class="text-primary">100K</span>
+                      <span class="text-primary" id="visitas">100K</span>
                       <span>PAGEVIEWS</span>
                 </p>
                 </div>
@@ -37,10 +37,12 @@
                   <input
                     type="range"
                     class="form-range"
-                    min="0"
-                    max="5"
-                    step="0.5"
-                    id="customRange3"
+                    min="8"
+                    max="40"
+                    step="8"
+                    id="inputRango"
+                    value="24"
+
                   />
                 </div>
               </div>
@@ -71,5 +73,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>
